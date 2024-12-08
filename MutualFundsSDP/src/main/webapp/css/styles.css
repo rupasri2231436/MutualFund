@@ -1,0 +1,207 @@
+
+ body {  
+ 			
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0; 
+             
+            background-color: #f4f4f4;  
+        }  
+        header {  
+            background: #0072bb;  
+            color: white;  
+            padding: 10px 20px;  
+            text-align: center;  
+        }  
+        nav {  
+            background: #ffffff;  
+            display: flex;  
+            align-items: center;  
+            padding: 10px 20px;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+        }  
+        nav .logo {  
+            margin-right: auto;  
+        }  
+        nav .logo img {  
+            height: 40px;  
+        }  
+        nav ul {  
+            list-style: none;  
+            display: flex;  
+            margin: 0;  
+            padding: 0;  
+        }  
+        nav ul li {  
+            position: relative;  
+            margin: 0 15px;  
+        }  
+        nav ul li a {  
+            text-decoration: none;  
+            color: #0072bb;  
+            padding: 5px 10px;  
+        }  
+        nav ul li:hover .dropdown {  
+            display: block;  
+        }  
+        .dropdown {  
+            display: none;  
+            position: absolute;  
+            background: white;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+            z-index: 1000;  
+            margin-top: 5px;  
+            padding: 10px;  
+        }  
+        .dropdown a {  
+            display: block;  
+            padding: 5px 10px;  
+            color: #0072bb;  
+            text-decoration: none;  
+        }  
+        .dropdown a:hover {  
+            background: #f4f4f4;  
+        }  
+        .search-container {  
+            margin-left: auto;  
+            display: flex;  
+            align-items: center;  
+        }  
+        .search-container input {  
+            padding: 5px;  
+            border: 1px solid #ccc;  
+            border-radius: 4px;  
+        }  
+        .search-container button {  
+            padding: 5px 10px;  
+            margin-left: 5px;  
+            background: #0072bb;  
+            color: white;  
+            border: none;  
+            border-radius: 4px;  
+            cursor: pointer;  
+        }  
+        .search-container button:hover {  
+            background: #005f8a;  
+        }  
+        .quick-invest {  
+            background: #0072bb;  
+            color: white;  
+            padding: 10px 15px;  
+            border: none;  
+            border-radius: 4px;  
+            cursor: pointer;  
+            margin-left: 15px;  
+        }  
+        .quick-invest:hover {  
+            background: #005f8a;  
+        }  
+        footer {  
+            text-align: center;  
+            padding: 20px;  
+            background: #0072bb;  
+            color: white;  
+            position: relative;  
+            bottom: 0;  
+            width: 100%;  
+        }  
+        section {  
+            margin: 20px;  
+            padding: 20px;  
+            background: white;  
+            border-radius: 8px;  
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+        }  
+        img {  
+            max-width: 100%;  
+            height: auto;  
+        }  
+.loginWindow {
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    display:flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.loginHeader {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type=text], input[type=password] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px; /* Reduced padding for smaller input box */
+    width: 95%; /* Reduced width */
+    height: 30px; /* Reduced height */
+    margin-bottom: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.signinButton {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #ff4081; /* Pinkish background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.signinButton:hover {
+    background-color: #e0336f; /* Darken on hover */
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-buttons img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.signup-prompt {
+    text-align: center;
+}
+
+.signup-prompt a {
+    color: #ff4081;
+    font-weight: bold;
+    text-decoration: none;
+}
+
